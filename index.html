@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://bootswatch.com/5/morph/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <section class="section py-3">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>Weather App</h1>
+                </div>
+            </div>
+        </section>
+        <section class="section py-3">
+            <div class="row">
+                <div class="col-md-10">
+                    <div class="form-group">
+                        <input type="text" id="cityName" class="form-control" placeholder="Enter Your City">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <button type="button" id="submitCity" class="btn btn-primary" onclick="myFunction()">Submit</button>
+                </div>
+            </div>
+        </section>
+        <section class="section py-3" id="finalResult">
+
+        </section>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
